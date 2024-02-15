@@ -42,7 +42,7 @@ public class C03_Assertions {
 
         Assert.assertEquals("https://www.testotomasyonun.com/",actualUrl); // PASSED
 
-        Assert.assertTrue("https://www.testotomasyonun.com/".equals(actualUrl)); // PASSED
+        Assert.assertTrue("https://testotomasyonun.com/".equals(actualUrl)); // PASSED
         // 'assertTrue()' can be simplified to 'assertEquals()'
 
         // Url'in https://www.testotomasyonun.com/ olmadıgını test edin
